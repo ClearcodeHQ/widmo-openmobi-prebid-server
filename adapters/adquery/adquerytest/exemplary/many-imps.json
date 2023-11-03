@@ -61,7 +61,8 @@
         "headers": {
           "Accept": ["application/json"],
           "Content-Type": ["application/json;charset=utf-8"],
-          "X-Openrtb-Version": ["2.5"]
+          "X-Openrtb-Version": ["2.5"],
+          "X-Forwarded-For": ["104.28.131.104"]
         },
         "body": {
           "adUnitCode": "test-banner-imp-id",
@@ -129,7 +130,8 @@
         "headers": {
           "Accept": ["application/json"],
           "Content-Type": ["application/json;charset=utf-8"],
-          "X-Openrtb-Version": ["2.5"]
+          "X-Openrtb-Version": ["2.5"],
+          "X-Forwarded-For": ["104.28.131.104"]
         },
         "body": {
           "adUnitCode": "test-banner-imp-id-2",
