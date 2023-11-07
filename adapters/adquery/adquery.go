@@ -146,6 +146,7 @@ func buildRequest(bidReq *openrtb2.BidRequest, imp *openrtb2.Imp, ext *openrtb_e
 
 	if bidReq.Device != nil {
 		bidderRequest.BidIp = bidReq.Device.IP
+		bidderRequest.BidIpv6 = bidReq.Device.IPv6
 		bidderRequest.BidUa = bidReq.Device.UA
 	}
 
