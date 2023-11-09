@@ -150,6 +150,10 @@ func buildRequest(bidReq *openrtb2.BidRequest, imp *openrtb2.Imp, ext *openrtb_e
 		bidderRequest.BidUa = bidReq.Device.UA
 	}
 
+	if bidReq.Site != nil {
+		bidderRequest.BidPageUrl = bidReq.Site.Page
+	}
+
 	return bidderRequest
 }
 

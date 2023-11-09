@@ -4,6 +4,9 @@
     "user": {
       "id": "d93f2a0e5f0fe2cc3a6e"
     },
+    "site": {
+      "page": "https://www.example.com"
+    },
     "device": {
       "ip": "104.28.131.104",
       "ua": "PostmanRuntime/7.26.8"
@@ -39,19 +42,20 @@
         },
         "body": {
           "adUnitCode": "test-banner-imp-id",
-          "bidId": "22e26bd9a702bc1",
-          "bidQid": "d93f2a0e5f0fe2cc3a6e",
-          "bidPageUrl": "",
           "bidder": "adquery",
           "bidderRequestId": "22e26bd9a702bc",
-          "bidRequestsCount": 1,
           "bidderRequestsCount": 1,
+          "bidId": "22e26bd9a702bc1",
+          "bidIp": "104.28.131.104",
+          "bidIpv6": "",
+          "bidPageUrl": "https://www.example.com",
+          "bidQid": "d93f2a0e5f0fe2cc3a6e",
+          "bidRequestsCount": 1,
+          "bidUa": "PostmanRuntime/7.26.8",
           "placementCode": "6d93f2a0e5f0fe2cc3a6e9e3ade964b43b07f897",
           "sizes": "320x100",
           "type": "banner",
-          "v": "server",
-          "bidIp": "104.28.131.104",
-          "bidUa": "PostmanRuntime/7.26.8"
+          "v": "server"
         }
       },
       "mockResponse": {
